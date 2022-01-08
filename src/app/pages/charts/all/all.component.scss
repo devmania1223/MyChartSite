@@ -1,0 +1,61 @@
+
+
+.no-margin-top{
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.no-margin{
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-aling{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img{
+    max-width: 300px;
+    background-color: transparent;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.base-container{
+    height: 600px;
+    padding: 15px;
+    margin: 0px;
+    transition-duration: 0.3s;
+
+}
+
+.base-container:hover{
+    transform: scale(1.1);
+    z-index:999;
+    transition-duration: 0.3s;
+}
+
+#olympic{
+    background-color: #F49952;
+}
+
+#marathon{
+    background-color: #8DD4A2;
+}
+
+#population{
+    background-color: #508CC8;
+}
+
+#mortality{
+    background-color: #9C9EDB;
+}

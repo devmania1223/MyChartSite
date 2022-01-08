@@ -1,0 +1,86 @@
+.background{
+    background-image: url('src/assets/img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+#intro-video{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-top: -116px; 
+    position: relative;
+}
+
+#video-fade{
+    background-color: #1B1B2B;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+#intro-content{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#intro-images{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    //margin-left: -130px;
+}
+
+#intro-images img{
+    margin: 0;
+    padding: 0; 
+}
+
+#intro-images div:nth-child(2) img{
+    max-height: 50px;
+}
+
+#intro-images div:nth-child(3) img{
+    height: 150px;
+    width: 150px;
+}
+
+.center-img{
+    display: flex;
+    align-items: center;
+}
+
+#title{
+    text-transform: uppercase;
+}
